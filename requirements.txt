@@ -1,0 +1,10 @@
+streamlit
+joblib
+pandas
+scikit-learn
+numpy 
+matplotlib
+seaborn
+flask
+sklearn
+# add any other packages you use
