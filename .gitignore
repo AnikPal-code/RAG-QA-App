@@ -14,3 +14,4 @@ chroma_db/
 # ❌ System files
 .DS_Store
 Thumbs.db
+Fraud.csv
