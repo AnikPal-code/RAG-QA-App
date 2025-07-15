@@ -1,0 +1,160 @@
+.chat-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9fb;
+}
+
+.upload-header {
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.upload-header input[type="file"],
+.upload-header button {
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.format-info {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.status {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.status.success {
+  color: green;
+}
+
+.status.error {
+  color: red;
+}
+
+.chat-area {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  background: #f0f2f5;
+}
+
+.chat-bubble {
+  max-width: 70%;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 1rem;
+  line-height: 1.4;
+}
+
+.chat-bubble.question {
+  background: #dcf8c6;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.chat-bubble.answer {
+  background: white;
+  border: 1px solid #ddd;
+  margin-right: auto;
+}
+
+.chat-input-area {
+  display: flex;
+  padding: 1rem;
+  background: white;
+  border-top: 1px solid #ccc;
+  position: sticky;
+  bottom: 0;
+}
+
+.chat-input-area textarea {
+  flex: 1;
+  resize: none;
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.chat-input-area button {
+  padding: 0.75rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chat-input-area button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.upload-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: #666;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.dropzone:hover {
+  background-color: #f9f9f9;
+}
+
+.file-input-hidden {
+  display: none;
+}
+
+.filename-preview {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.upload-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.upload-button {
+  padding: 8px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.upload-button:hover:enabled {
+  background-color: #45a049;
+}
