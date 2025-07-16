@@ -26,7 +26,7 @@ I had used "Render" to deploy my backend for it's memory limit for free trial ex
 - 🧠 Retrieves relevant context using **ChromaDB vector store**
 - 🧾 Upload or use pre-indexed PDF/text documents
 - ⚡ FastAPI backend + Vercel frontend
-- 📦 Docker + Railway deployment (backend)
+- 📦 Docker + Render deployment (backend)
 
 ---
 
