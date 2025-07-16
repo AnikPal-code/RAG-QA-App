@@ -45,6 +45,7 @@ I had used "Render" to deploy my backend for it's memory limit for free trial ex
 ## 📁 Project Structure
 
 RAG-QA-App/
+
 ├── backend/ # FastAPI + QA system + Docker + Chroma_DB, etc.
 
 ├── frontend/ # Frontend (hosted on Vercel)
